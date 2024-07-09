@@ -179,5 +179,3 @@ if submit_button:
     
     # Custom styled prediction text
     st.markdown(f'<p class="prediction-text">{np.exp(y_pred)[0]:,.2f} Lakhs</p>', unsafe_allow_html=True)
-if __name__ == '__main__':
-    st.run(port=8000, address='0.0.0.0')
