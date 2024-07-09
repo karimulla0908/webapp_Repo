@@ -49,7 +49,7 @@ css_file_path = 'styles.css'
 local_css(css_file_path)
 
 # Centered title
-st.markdown('<h1 style="text-align: center;">House Price Prediction</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center; color: smokewhite;">House Price Prediction</h1>', unsafe_allow_html=True)
 
 # Form background
 form_bg_css = """
