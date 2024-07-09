@@ -15,7 +15,7 @@ body {
 
 /* Form container style */
 form {
-    background-color: #212121; /* Darker background color */
+    background-color: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);; /* Darker background color */
     padding: 30px; /* Increased padding */
     border-radius: 10px;
 }
