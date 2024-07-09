@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Base styles for dark theme */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container style */
+form {
+    background-color: #212121; /* Darker background color */
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+}
+
+/* Streamlit widget styles */
+.css-1y4p8pa, .css-1y4p8pa:visited {
+    color: #e0e0e0;
+}
+
+.stSelectbox, .stNumberInput, .stTextInput, .stButton button {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #3a3a3a;
+}
+
+.stSelectbox:hover, .stNumberInput:hover, .stTextInput:hover, .stButton button:hover {
+    border-color: #6200ea;
+}
+
+/* Headers and subheaders */
+h1, h2, h3, h4, h5, h6 {
+    color: #bb86fc;
+    text-align: center; /* Center align headers */
+}
+
+/* Subheader */
+.stSubheader {
+    color: #03dac6;
+    text-align: center; /* Center align subheaders */
+}
+
+/* Input summary table */
+table {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+table th {
+    background-color: #2c2c2c;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #2c2c2c;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+/* Custom styles for side-by-side columns */
+.stColumn {
+    margin: 15px; /* Adjust margins between columns */
+}
+
+/* Prediction text style */
+.prediction-text {
+    font-size: 2em; /* Increase the font size */
+    color: #03dac6; /* Use a modern color */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+}
